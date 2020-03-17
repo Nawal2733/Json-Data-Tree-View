@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+li{
+    margin: 8px 20px;
+}
+span{
+    font-weight: bolder;
+}
+.buttons{
+    display: none;
+    cursor: pointer;
+}
+span:hover .buttons{
+    color: red;
+    display: initial;
+}
+.addData{
+    display: none;
+    /* display: inline; */
+}
+.addData>input{
+    width: 100px;
+}
